@@ -1,10 +1,10 @@
-AVELINE - Интернет-магазин одежды
+#Revepe - Интернет-магазин одежды
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey.svg)
 
-**AVELINE** - интернет-магазин одежды на Flask с полным циклом онлайн-продаж. Проект включает каталог товаров, корзину, избранное и систему оформления заказов.
+**Revepe** - интернет-магазин одежды на Flask с полным циклом онлайн-продаж. Проект включает каталог товаров, поиск товаров, вход в аккаунт и систему оформления заказов.
 
 ---
 
