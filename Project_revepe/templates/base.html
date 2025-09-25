@@ -1,0 +1,53 @@
+{# это шаблон сайта #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} revepe {% endblock %} </title>
+</head>
+<body bgcolor="#ffffff" text = "black">
+
+
+    </div>  
+</header>
+
+    {% block nav %}
+
+    <!-- Верхняя панель навигации -->
+<nav style="background-color: #d0d0d0; padding: 20px 0; margin-bottom: 30px;">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+        <!-- Логотип -->
+        <div style="color: rgb(0, 0, 0); font-size: 24px; font-weight: bold; font-family: 'Courier New', Courier, monospace ;">
+            Revepe
+        </div>
+        
+        <!-- Меню навигации -->
+        <ul style="display: flex; list-style: none; margin: 0; padding: 0; gap: 30px;">
+            <li><a href="/" style="color: rgb(0, 0, 0); text-decoration: none; font-size: 18px; font-weight: bold; font-family: 'Courier New', Courier, monospace ;">Главная</a></li>
+            
+            <li><a href="/about" style="color: rgb(0, 0, 0); text-decoration: none; font-size: 18px;font-weight: bold; font-family: 'Courier New', Courier, monospace ;">О нас</a></li>
+            <li><a href="/contact" style="color: rgb(0, 0, 0); text-decoration: none; font-size: 18px;font-weight: bold; font-family: 'Courier New', Courier, monospace ;">Контакты</a></li>
+        </ul>
+        
+        <!-- Иконки действий -->
+        <div style="display: flex; gap: 20px;">
+            <a href="/search" style="color: white; text-decoration: none; font-size: 18px;">🔍</a>
+            <a href="/login" style="color: white; text-decoration: none; font-size: 18px;">🙎‍♂️</a>
+        </div>
+    </div>
+</nav>
+
+
+  
+    {% endblock %}
+
+    {% block content %}
+    
+
+    {% endblock %}
+
+    
+
+</body>
+</html>
